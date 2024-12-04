@@ -129,7 +129,7 @@ if __name__ == "__main__":
         "--output", 
         type=str, 
         default="log_analysis_results.csv", 
-        help="Output file for storing the results of parsing"
+        help="Output file for storing the results of parsing (default: log_analysis_results.csv)"
     )
 
     # Parse arguments
